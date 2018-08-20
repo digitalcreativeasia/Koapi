@@ -33,5 +33,18 @@ Don't hesitate to send an issue or a pull request to maintain this repository he
 * ``yarn`` (or ``npm install`` if you want)
 * ``npm start`` to launch server
 
+## Start
+
+`npm start`
+
+* Register: `post` -> `localhost:4000/api/users/register`
+
+* Login: `post` -> `localhost:4000/api/users/login`
+
+* User details: `get` -> `localhost:4000/api/users/:id` (auth required)
+
+* User list: `get` -> `localhost:4000/api/users` (auth required)
+
+
 ## ROADMAP
 To have a global view of our roadmap, see [HERE](ROADMAP.md)
